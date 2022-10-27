@@ -13,7 +13,7 @@ namespace HandsOnAPIUsingEFCodeFirst.Database
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //define connection string.
-            optionsBuilder.UseSqlServer(@"Data Source=SANTU\MSSQLSERVER2019;Initial Catalog=ECommerceDB1026;User ID=sa;Password=pass@word1");
+            optionsBuilder.UseSqlServer(@"Data Source=SANTU\MSSQLSERVER2019;Initial Catalog=ECommerceDB1027;User ID=sa;Password=pass@word1");
         }
     }
 }

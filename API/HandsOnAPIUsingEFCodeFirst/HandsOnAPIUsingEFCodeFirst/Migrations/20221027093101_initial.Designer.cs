@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HandsOnAPIUsingEFCodeFirst.Migrations
 {
     [DbContext(typeof(ECommerceDBContext))]
-    [Migration("20221026072339_initial")]
+    [Migration("20221027093101_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
